@@ -3,8 +3,8 @@ import { Link } from  'react-router-dom'
 
 const Book = ({id, volumeInfo}) => {
     const Photo = volumeInfo.imageLinks ? 
-    volumeInfo.imageLinks.thumbnail : 
-    'https://images.unsplash.com/photo-1547413749-3e0c1ba70695?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
+                  volumeInfo.imageLinks.thumbnail : 
+                  'https://images.unsplash.com/photo-1547413749-3e0c1ba70695?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
     
     return (
         <div className='bookContainer'>

@@ -10,15 +10,15 @@ import ErrorBoundary from './components/ErrorBoundary'
 function App() {
   return (
     <ErrorBoundary>
-    <Router>
-    <div className='container'>
-      <Switch>
-        <Route exact path='/' component={Search} />
-        <Route path='/infopage/:id' component={InfoPage} />
-      </Switch>
-    </div>
-    <Footer />
-    </Router>
+      <Router>
+        <div className='container'>
+          <Switch>
+            <Route exact path='/' component={Search} />
+            <Route path='/infopage/:id' component={InfoPage} />
+          </Switch>
+        </div>
+        <Footer />
+      </Router>
     </ErrorBoundary>
   );
 }
