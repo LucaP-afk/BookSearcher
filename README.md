@@ -5,7 +5,3 @@
 This book searcher is created using Google Books API.
 
 
-
-
-
-
