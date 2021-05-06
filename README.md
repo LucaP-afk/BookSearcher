@@ -14,4 +14,4 @@ Let <b>API_KEY</b> = yourPersonalKey
 <br>
 
 <br>
-You can try it <a href='https://searcher-react.web.app'>here</a>
+<h3>You can try it <a href='https://searcher-react.web.app'>here</a></h3>
